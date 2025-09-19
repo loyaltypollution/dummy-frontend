@@ -1,0 +1,18 @@
+{
+  "name": "dummy-frontend",
+  "version": "0.0.1",
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node server.cjs"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@sourceacademy/conductor": "https://github.com/loyaltypollution/conductor.git#src",
+    "rollup": "^4.51.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tslib": "^2.8.1",
+    "typescript": "^5.9.2"
+  }
+}
